@@ -1,3 +1,5 @@
 site_name: TUAA Docs
 theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
   name: material
