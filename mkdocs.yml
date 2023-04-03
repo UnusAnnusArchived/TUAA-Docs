@@ -7,10 +7,13 @@ theme:
     scheme: slate
   features:
     - content.action.edit
+    - search.suggest
+    - search.highlight
   logo: assets/logo.png
   favicon: assets/logo.png
   name: material
 plugins:
+  - search
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
