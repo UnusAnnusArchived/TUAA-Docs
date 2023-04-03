@@ -2,3 +2,5 @@ DS_STORE
 .*
 !.gitignore
 site
+node_modules
+discord

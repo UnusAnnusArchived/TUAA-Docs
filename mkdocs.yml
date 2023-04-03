@@ -1,5 +1,18 @@
 site_name: TUAA Docs
+repo_url: https://github.com/UnusAnnusArchived/TUAA-Docs
+repo_name: UnusAnnusArchived/TUAA-Docs
+edit_uri: edit/main/docs
 theme:
+  palette:
+    scheme: slate
+  features:
+    - content.action.edit
   logo: assets/logo.png
   favicon: assets/logo.png
   name: material
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: UnusAnnusArchived/TUAA-Docs
+      branch: main

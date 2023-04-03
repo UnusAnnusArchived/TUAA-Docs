@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Welcome!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to our docs!
 
-## Commands
+## Our API
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Please select an API endpoint in the sidebar to see the documentation for it.
 
-## Project layout
+## Applications
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+You can view the Applications we've made in the sidebar.
+
+## Download Methods
+
+You can view ways to download videos in the sidebar.
+
+## PocketBase
+
+You can view documentation for our PocketBase instance in the sidebar.
+
+## Reference
+
+You can view the reference for several objects that could be helpful while making an app or addition to our website in the sidebar.
