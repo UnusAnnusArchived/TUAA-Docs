@@ -3,12 +3,17 @@ repo_url: https://github.com/UnusAnnusArchived/TUAA-Docs
 repo_name: UnusAnnusArchived/TUAA-Docs
 edit_uri: edit/main/docs
 theme:
+  icon:
+    admonition:
+      get: octicons/checklist-16
   palette:
     scheme: slate
   features:
     - content.action.edit
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.code.annotate
   logo: assets/logo.png
   favicon: assets/logo.png
   name: material
@@ -17,5 +22,15 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
+      enabled: !ENV [PRODUCTION, false]
       repository: UnusAnnusArchived/TUAA-Docs
       branch: main
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra_css:
+  - css/extra.css

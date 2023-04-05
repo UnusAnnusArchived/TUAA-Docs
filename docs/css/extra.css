@@ -1,0 +1,115 @@
+:root {
+  --md-admonition-icon--http-method: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="16" height="16" viewBox="0 0 16 16"%3E%3Cpath fill="currentColor" d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z"%2F%3E%3C%2Fsvg%3E');
+}
+
+/* GET method */
+.md-typeset .admonition.get,
+.md-typeset details.get {
+  border-color: #61b0fe;
+}
+.md-typeset .get > .admonition-title,
+.md-typeset .get > summary {
+  background-color: #61b0fe1a;
+}
+.md-typeset .get > .admonition-title::before,
+.md-typeset .get > summary::before {
+  background-color: #61b0fe;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* POST method */
+.md-typeset .admonition.post,
+.md-typeset details.post {
+  border-color: #48cd90;
+}
+.md-typeset .post > .admonition-title,
+.md-typeset .post > summary {
+  background-color: #48cd901a;
+}
+.md-typeset .post > .admonition-title::before,
+.md-typeset .post > summary::before {
+  background-color: #48cd90;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* PUT method */
+.md-typeset .admonition.put,
+.md-typeset details.put {
+  border-color: #fca131;
+}
+.md-typeset .put > .admonition-title,
+.md-typeset .put > summary {
+  background-color: #fca1311a;
+}
+.md-typeset .put > .admonition-title::before,
+.md-typeset .put > summary::before {
+  background-color: #fca131;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* PATCH method */
+.md-typeset .admonition.patch,
+.md-typeset details.patch {
+  border-color: #4fe3c2;
+}
+.md-typeset .patch > .admonition-title,
+.md-typeset .patch > summary {
+  background-color: #4fe3c21a;
+}
+.md-typeset .patch > .admonition-title::before,
+.md-typeset .patch > summary::before {
+  background-color: #4fe3c2;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* DELETE method */
+.md-typeset .admonition.delete,
+.md-typeset details.delete {
+  border-color: #f83e3e;
+}
+.md-typeset .delete > .admonition-title,
+.md-typeset .delete > summary {
+  background-color: #f83e3e1a;
+}
+.md-typeset .delete > .admonition-title::before,
+.md-typeset .delete > summary::before {
+  background-color: #f83e3e;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* HEAD method */
+.md-typeset .admonition.head,
+.md-typeset details.head {
+  border-color: #9012fe;
+}
+.md-typeset .head > .admonition-title,
+.md-typeset .head > summary {
+  background-color: #9012fe1a;
+}
+.md-typeset .head > .admonition-title::before,
+.md-typeset .head > summary::before {
+  background-color: #9012fe;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
+
+/* OPTIONS method */
+.md-typeset .admonition.options,
+.md-typeset details.options {
+  border-color: #0b5aa7;
+}
+.md-typeset .options > .admonition-title,
+.md-typeset .options > summary {
+  background-color: #0b5aa71a;
+}
+.md-typeset .options > .admonition-title::before,
+.md-typeset .options > summary::before {
+  background-color: #0b5aa7;
+  -webkit-mask-image: var(--md-admonition-icon--http-method);
+  mask-image: var(--md-admonition-icon--http-method);
+}
