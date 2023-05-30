@@ -1,1 +1,0 @@
-# Get Specials Metadata

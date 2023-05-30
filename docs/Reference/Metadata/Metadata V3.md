@@ -74,21 +74,21 @@ Either [`TUAASource`](#tuaa-source), [`DirectSource`](#direct-source), or [`Embe
 
 ### Audio
 
-| Key       | Type      | Optional |
-| --------- | --------- | -------- |
-| `label`   | `String`  | [ ]      |
-| `lang`    | `String`  | [ ]      |
-| `src`     | `String`  | [ ]      |
-| `default` | `Boolean` | [x]      |
+| Key       | Type      | Optional                                                   |
+| --------- | --------- | ---------------------------------------------------------- |
+| `label`   | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `lang`    | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `src`     | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `default` | `Boolean` | <input class="mdcheck" type="checkbox" checked disabled /> |
 
 ### Caption
 
-| Key       | Type      | Optional |
-| --------- | --------- | -------- |
-| `label`   | `String`  | [ ]      |
-| `srclang` | `String`  | [ ]      |
-| `src`     | `String`  | [ ]      |
-| `default` | `Boolean` | [x]      |
+| Key       | Type      | Optional                                                   |
+| --------- | --------- | ---------------------------------------------------------- |
+| `label`   | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `srclang` | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `src`     | `String`  | <input class="mdcheck" type="checkbox" disabled />         |
+| `default` | `Boolean` | <input class="mdcheck" type="checkbox" checked disabled /> |
 
 ### Thumbnails
 

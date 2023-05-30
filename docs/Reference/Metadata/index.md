@@ -18,5 +18,9 @@ All links to external media (videos, subtitles, thumbnails, etc) have their doma
 ```typescript title="TypeScript"
 const cdn = "https://stream.unusann.us";
 
+const videoPath = metadata.sources[0]; // "/01/001/1080.mp4"
+
 const videoUrl = `${cdn}${videoPath}`;
 ```
+
+This is different in Metadata V3. To see how to use that, go to the [Metadata V3 Docs](./Metadata%20V3.md#url-variables)

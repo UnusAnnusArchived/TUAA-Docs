@@ -2,16 +2,16 @@
 
 Metadata V1 is the first version of metadata that the archive was built on. This is still in use with most of our videos, but we're trying to phase it out.
 
-| Key                  | Type                 | Optional |
-| -------------------- | -------------------- | -------- |
-| `__metadata_version` | `1`                  | [x]      |
-| `video`              | `String`             | [ ]      |
-| `season`             | `Integer`            | [ ]      |
-| `episode`            | `Integer`            | [ ]      |
-| `title`              | `String`             | [ ]      |
-| `description`        | `String`             | [ ]      |
-| `releasedate`        | `Integer (JS Epoch)` | [ ]      |
-| `thumbnail`          | `String`             | [ ]      |
+| Key                  | Type                 | Optional                                                   |
+| -------------------- | -------------------- | ---------------------------------------------------------- |
+| `__metadata_version` | `1`                  | <input class="mdcheck" type="checkbox" checked disabled /> |
+| `video`              | `String`             | <input class="mdcheck" type="checkbox" disabled />         |
+| `season`             | `Integer`            | <input class="mdcheck" type="checkbox" disabled />         |
+| `episode`            | `Integer`            | <input class="mdcheck" type="checkbox" disabled />         |
+| `title`              | `String`             | <input class="mdcheck" type="checkbox" disabled />         |
+| `description`        | `String`             | <input class="mdcheck" type="checkbox" disabled />         |
+| `releasedate`        | `Integer (JS Epoch)` | <input class="mdcheck" type="checkbox" disabled />         |
+| `thumbnail`          | `String`             | <input class="mdcheck" type="checkbox" disabled />         |
 
 ## Example for s01.e001
 
