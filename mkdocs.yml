@@ -3,9 +3,6 @@ repo_url: https://github.com/UnusAnnusArchived/TUAA-Docs
 repo_name: UnusAnnusArchived/TUAA-Docs
 edit_uri: edit/main/docs
 theme:
-  icon:
-    admonition:
-      get: octicons/checklist-16
   palette:
     scheme: slate
   features:
