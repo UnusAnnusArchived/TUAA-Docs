@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "__metadata_version": {
+      "type": "integer",
+      "enum": [2]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "src": {
+            "type": "string",
+            "pattern": "\\/.{1,}\\.mp4$"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["video/mp4"]
+          },
+          "size": {
+            "type": "number"
+          }
+        },
+        "additionalItems": false,
+        "required": ["src", "type", "size"]
+      }
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["captions"]
+          },
+          "label": {
+            "type": "string"
+          },
+          "srclang": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string",
+            "pattern": "\\/.{1,}\\.vtt$"
+          }
+        },
+        "additionalItems": false,
+        "required": ["kind", "label", "srclang", "src"]
+      }
+    },
+    "posters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "src": {
+            "type": "string",
+            "pattern": "\\/.{1,}\\.(jpg|jpeg|webp|avif)$"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["image/jpeg", "image/webp", "image/avif"]
+          }
+        }
+      }
+    },
+    "season": {
+      "type": "integer"
+    },
+    "episode": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "integer",
+      "description": "JS Epoch"
+    },
+    "duration": {
+      "type": "integer",
+      "description": "JS Epoch"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["sources", "tracks", "posters", "season", "episode", "title", "description", "date"]
+}

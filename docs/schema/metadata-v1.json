@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "__metadata_version": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "video": {
+      "type": "string",
+      "pattern": "\\/.{1,}\\.mp4$"
+    },
+    "season": {
+      "type": "integer"
+    },
+    "episode": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "releasedate": {
+      "type": "integer",
+      "description": "JS Epoch"
+    },
+    "thumbnail": {
+      "type": "string",
+      "pattern": "\\.webp$",
+      "description": "Always in .webp format. Will be changed to other formats in code. (ik it's stupid, but I was stupid when making v1)"
+    }
+  },
+  "required": ["video", "season", "episode", "title", "description", "releasedate", "thumbnail"],
+  "additionalProperties": false
+}
